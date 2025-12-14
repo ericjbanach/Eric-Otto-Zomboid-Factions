@@ -9,7 +9,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 42
 	spawn: dayEnd = 55
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 1.5
 	spawn: groupMin = 4
 	spawn: groupMax = 4
 	spawn: zone = 0
@@ -73,7 +73,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 100
 	spawn: dayEnd = 200
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 1.4
 	spawn: groupMin = 8
 	spawn: groupMax = 13
 	spawn: zone = 0
@@ -89,7 +89,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 49
 	spawn: dayEnd = 69
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 2
 	spawn: groupMin = 4
 	spawn: groupMax = 6
 	spawn: zone = 2
@@ -121,7 +121,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 1
 	spawn: dayEnd = 13
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 1
 	spawn: groupMin = 2
 	spawn: groupMax = 4
 	spawn: zone = 0
@@ -137,7 +137,7 @@
 	spawn: roadblock = true
 	spawn: dayStart = 0
 	spawn: dayEnd = 50
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 0.004
 	spawn: groupMin = 1
 	spawn: groupMax = 3
 	spawn: zone = 0
@@ -201,7 +201,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 63
 	spawn: dayEnd = 83
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 1.7
 	spawn: groupMin = 3
 	spawn: groupMax = 8
 	spawn: zone = 1
@@ -217,7 +217,7 @@
 	spawn: roadblock = true
 	spawn: dayStart = 56
 	spawn: dayEnd = 76
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 1.7
 	spawn: groupMin = 5
 	spawn: groupMax = 6
 	spawn: zone = 0
@@ -249,7 +249,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 15
 	spawn: dayEnd = 365
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 0
 	spawn: groupMin = 1
 	spawn: groupMax = 1
 	spawn: zone = 2
@@ -281,7 +281,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 77
 	spawn: dayEnd = 365
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 1.5
 	spawn: groupMin = 5
 	spawn: groupMax = 6
 	spawn: zone = 0
@@ -297,7 +297,7 @@
 	spawn: roadblock = false
 	spawn: dayStart = 14
 	spawn: dayEnd = 300
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 0.002
 	spawn: groupMin = 3
 	spawn: groupMax = 4
 	spawn: zone = 0
@@ -361,7 +361,7 @@
 	spawn: roadblock = true
 	spawn: dayStart = 30
 	spawn: dayEnd = 43
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 2.2
 	spawn: groupMin = 3
 	spawn: groupMax = 5
 	spawn: zone = 0
@@ -377,7 +377,7 @@
 	spawn: roadblock = true
 	spawn: dayStart = 20
 	spawn: dayEnd = 300
-	spawn: spawnChance = 0.001
+	spawn: spawnChance = 3.0E-4
 	spawn: groupMin = 1
 	spawn: groupMax = 4
 	spawn: zone = 0
@@ -393,8 +393,40 @@
 	spawn: roadblock = true
 	spawn: dayStart = 0
 	spawn: dayEnd = 600
-	spawn: spawnChance = 0.01
+	spawn: spawnChance = 65
 	spawn: groupMin = 1
 	spawn: groupMax = 5
+	spawn: zone = 0
+
+[9a6744e3-729b-44a1-a2d0-e194c5e4583b]
+	general: name = Clowns
+	spawn: friendly = false
+	spawn: companion = false
+	spawn: defenders = false
+	spawn: campers = false
+	spawn: assault = false
+	spawn: wanderer = true
+	spawn: roadblock = true
+	spawn: dayStart = 4
+	spawn: dayEnd = 300
+	spawn: spawnChance = 0.01
+	spawn: groupMin = 2
+	spawn: groupMax = 300
+	spawn: zone = 1
+
+[5529cdac-0ae7-4fa9-b701-32566752ea4f]
+	general: name = Black_Smiths
+	spawn: friendly = true
+	spawn: companion = false
+	spawn: defenders = false
+	spawn: campers = false
+	spawn: assault = false
+	spawn: wanderer = false
+	spawn: roadblock = false
+	spawn: dayStart = 9
+	spawn: dayEnd = 200
+	spawn: spawnChance = 0.03
+	spawn: groupMin = 1
+	spawn: groupMax = 3
 	spawn: zone = 0
 

@@ -391,7 +391,7 @@
 	spawn: assault = true
 	spawn: wanderer = true
 	spawn: roadblock = true
-	spawn: dayStart = 25
+	spawn: dayStart = 7
 	spawn: dayEnd = 600
 	spawn: spawnChance = 0.09
 	spawn: groupMin = 1
@@ -418,14 +418,30 @@
 	general: name = Black_Smiths
 	spawn: friendly = true
 	spawn: companion = false
-	spawn: defenders = false
+	spawn: defenders = true
 	spawn: campers = false
 	spawn: assault = false
-	spawn: wanderer = false
+	spawn: wanderer = true
 	spawn: roadblock = false
-	spawn: dayStart = 9
+	spawn: dayStart = 5
 	spawn: dayEnd = 200
 	spawn: spawnChance = 0.3
+	spawn: groupMin = 1
+	spawn: groupMax = 3
+	spawn: zone = 0
+
+[d69418f3-19d9-4d9b-8bc8-9d0326488ed0]
+	general: name = GreenSurvs
+	spawn: friendly = true
+	spawn: companion = false
+	spawn: defenders = true
+	spawn: campers = true
+	spawn: assault = false
+	spawn: wanderer = true
+	spawn: roadblock = false
+	spawn: dayStart = 1
+	spawn: dayEnd = 15
+	spawn: spawnChance = 0.8
 	spawn: groupMin = 1
 	spawn: groupMax = 3
 	spawn: zone = 0
